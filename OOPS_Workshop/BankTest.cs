@@ -10,6 +10,7 @@ namespace OOPS_Workshop
     {
         public static void Main()
         {
+            //Inheritance demo
             BankAccount account1 = new BankAccount("010-565-456", "Naren", 8000);
             BankAccount account2 = new BankAccount("010-568-496", "Jessi", 10000);
             Console.WriteLine(account1.Show());
